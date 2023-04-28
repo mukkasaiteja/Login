@@ -14,9 +14,9 @@ function Login() {
   };
 
   return (
-    <div>
-      <h3>Login form</h3>
-      <input
+    <div className="main">
+      <h3 className="h3">Login form</h3>
+      <input className="input"
         type="text"
         placeholder="ussername"
         onChange={(e) => {
@@ -24,7 +24,7 @@ function Login() {
         }}
       />
       <br />
-      <input
+      <input className="input"
         type="password"
         placeholder="password"
         onChange={(e) => {
@@ -32,7 +32,7 @@ function Login() {
         }}
       />
       <br />
-      <button onClick={Changeout}>Login</button>
+      <button className="button" onClick={Changeout}>Login</button>
     </div>
   );
 }
